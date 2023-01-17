@@ -1,0 +1,851 @@
+{
+    "status": 200,
+    "data": {
+        "theaters": [
+            {
+                "id": 1,
+                "movie": "The Lion King",
+                "seats": [
+                    [
+                        {
+                            "id": 1,
+                            "booked": 0
+                        },
+                        {
+                            "id": 2,
+                            "booked": 0
+                        },
+                        {
+                            "id": 3,
+                            "booked": 0
+                        },
+                        {
+                            "id": 4,
+                            "booked": 0
+                        },
+                        {
+                            "id": 5,
+                            "booked": 0
+                        },
+                        {
+                            "id": 6,
+                            "booked": 0
+                        },
+                        {
+                            "id": 7,
+                            "booked": 0
+                        },
+                        {
+                            "id": 8,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 9,
+                            "booked": 0
+                        },
+                        {
+                            "id": 10,
+                            "booked": 0
+                        },
+                        {
+                            "id": 11,
+                            "booked": 0
+                        },
+                        {
+                            "id": 12,
+                            "booked": 0
+                        },
+                        {
+                            "id": 13,
+                            "booked": 0
+                        },
+                        {
+                            "id": 14,
+                            "booked": 0
+                        },
+                        {
+                            "id": 15,
+                            "booked": 0
+                        },
+                        {
+                            "id": 16,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 17,
+                            "booked": 0
+                        },
+                        {
+                            "id": 18,
+                            "booked": 0
+                        },
+                        {
+                            "id": 19,
+                            "booked": 0
+                        },
+                        {
+                            "id": 20,
+                            "booked": 1
+                        },
+                        {
+                            "id": 21,
+                            "booked": 1
+                        },
+                        {
+                            "id": 22,
+                            "booked": 0
+                        },
+                        {
+                            "id": 23,
+                            "booked": 0
+                        },
+                        {
+                            "id": 24,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 25,
+                            "booked": 0
+                        },
+                        {
+                            "id": 26,
+                            "booked": 0
+                        },
+                        {
+                            "id": 27,
+                            "booked": 0
+                        },
+                        {
+                            "id": 28,
+                            "booked": 0
+                        },
+                        {
+                            "id": 29,
+                            "booked": 0
+                        },
+                        {
+                            "id": 30,
+                            "booked": 0
+                        },
+                        {
+                            "id": 31,
+                            "booked": 0
+                        },
+                        {
+                            "id": 32,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 33,
+                            "booked": 0
+                        },
+                        {
+                            "id": 34,
+                            "booked": 0
+                        },
+                        {
+                            "id": 35,
+                            "booked": 0
+                        },
+                        {
+                            "id": 36,
+                            "booked": 0
+                        },
+                        {
+                            "id": 37,
+                            "booked": 0
+                        },
+                        {
+                            "id": 38,
+                            "booked": 0
+                        },
+                        {
+                            "id": 39,
+                            "booked": 0
+                        },
+                        {
+                            "id": 40,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 41,
+                            "booked": 1
+                        },
+                        {
+                            "id": 42,
+                            "booked": 1
+                        },
+                        {
+                            "id": 43,
+                            "booked": 0
+                        },
+                        {
+                            "id": 44,
+                            "booked": 1
+                        },
+                        {
+                            "id": 45,
+                            "booked": 1
+                        },
+                        {
+                            "id": 46,
+                            "booked": 0
+                        },
+                        {
+                            "id": 47,
+                            "booked": 0
+                        },
+                        {
+                            "id": 48,
+                            "booked": 0
+                        }
+                    ]
+                ],
+                "ticketPrice": 6
+            },
+            {
+                "id": 2,
+                "movie": "The Matrix",
+                "seats": [
+                    [
+                        {
+                            "id": 1,
+                            "booked": 0
+                        },
+                        {
+                            "id": 2,
+                            "booked": 0
+                        },
+                        {
+                            "id": 3,
+                            "booked": 0
+                        },
+                        {
+                            "id": 4,
+                            "booked": 0
+                        },
+                        {
+                            "id": 5,
+                            "booked": 0
+                        },
+                        {
+                            "id": 6,
+                            "booked": 0
+                        },
+                        {
+                            "id": 7,
+                            "booked": 0
+                        },
+                        {
+                            "id": 8,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 9,
+                            "booked": 0
+                        },
+                        {
+                            "id": 10,
+                            "booked": 0
+                        },
+                        {
+                            "id": 11,
+                            "booked": 0
+                        },
+                        {
+                            "id": 12,
+                            "booked": 0
+                        },
+                        {
+                            "id": 13,
+                            "booked": 0
+                        },
+                        {
+                            "id": 14,
+                            "booked": 0
+                        },
+                        {
+                            "id": 15,
+                            "booked": 0
+                        },
+                        {
+                            "id": 16,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 17,
+                            "booked": 0
+                        },
+                        {
+                            "id": 18,
+                            "booked": 0
+                        },
+                        {
+                            "id": 19,
+                            "booked": 0
+                        },
+                        {
+                            "id": 20,
+                            "booked": 0
+                        },
+                        {
+                            "id": 21,
+                            "booked": 0
+                        },
+                        {
+                            "id": 22,
+                            "booked": 0
+                        },
+                        {
+                            "id": 23,
+                            "booked": 1
+                        },
+                        {
+                            "id": 24,
+                            "booked": 1
+                        }
+                    ],
+                    [
+                        {
+                            "id": 25,
+                            "booked": 0
+                        },
+                        {
+                            "id": 26,
+                            "booked": 0
+                        },
+                        {
+                            "id": 27,
+                            "booked": 0
+                        },
+                        {
+                            "id": 28,
+                            "booked": 0
+                        },
+                        {
+                            "id": 29,
+                            "booked": 0
+                        },
+                        {
+                            "id": 30,
+                            "booked": 1
+                        },
+                        {
+                            "id": 31,
+                            "booked": 1
+                        },
+                        {
+                            "id": 32,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 33,
+                            "booked": 0
+                        },
+                        {
+                            "id": 34,
+                            "booked": 0
+                        },
+                        {
+                            "id": 35,
+                            "booked": 0
+                        },
+                        {
+                            "id": 36,
+                            "booked": 0
+                        },
+                        {
+                            "id": 37,
+                            "booked": 0
+                        },
+                        {
+                            "id": 38,
+                            "booked": 0
+                        },
+                        {
+                            "id": 39,
+                            "booked": 0
+                        },
+                        {
+                            "id": 40,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 41,
+                            "booked": 0
+                        },
+                        {
+                            "id": 42,
+                            "booked": 0
+                        },
+                        {
+                            "id": 43,
+                            "booked": 1
+                        },
+                        {
+                            "id": 44,
+                            "booked": 1
+                        },
+                        {
+                            "id": 45,
+                            "booked": 1
+                        },
+                        {
+                            "id": 46,
+                            "booked": 1
+                        },
+                        {
+                            "id": 47,
+                            "booked": 0
+                        },
+                        {
+                            "id": 48,
+                            "booked": 0
+                        }
+                    ]
+                ],
+                "ticketPrice": 8
+            },
+            {
+                "id": 3,
+                "movie": "Toy Story",
+                "seats": [
+                    [
+                        {
+                            "id": 1,
+                            "booked": 0
+                        },
+                        {
+                            "id": 2,
+                            "booked": 0
+                        },
+                        {
+                            "id": 3,
+                            "booked": 0
+                        },
+                        {
+                            "id": 4,
+                            "booked": 0
+                        },
+                        {
+                            "id": 5,
+                            "booked": 0
+                        },
+                        {
+                            "id": 6,
+                            "booked": 0
+                        },
+                        {
+                            "id": 7,
+                            "booked": 0
+                        },
+                        {
+                            "id": 8,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 9,
+                            "booked": 0
+                        },
+                        {
+                            "id": 10,
+                            "booked": 0
+                        },
+                        {
+                            "id": 11,
+                            "booked": 0
+                        },
+                        {
+                            "id": 12,
+                            "booked": 0
+                        },
+                        {
+                            "id": 13,
+                            "booked": 0
+                        },
+                        {
+                            "id": 14,
+                            "booked": 0
+                        },
+                        {
+                            "id": 15,
+                            "booked": 0
+                        },
+                        {
+                            "id": 16,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 17,
+                            "booked": 1
+                        },
+                        {
+                            "id": 18,
+                            "booked": 1
+                        },
+                        {
+                            "id": 19,
+                            "booked": 0
+                        },
+                        {
+                            "id": 20,
+                            "booked": 0
+                        },
+                        {
+                            "id": 21,
+                            "booked": 0
+                        },
+                        {
+                            "id": 22,
+                            "booked": 0
+                        },
+                        {
+                            "id": 23,
+                            "booked": 0
+                        },
+                        {
+                            "id": 24,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 25,
+                            "booked": 0
+                        },
+                        {
+                            "id": 26,
+                            "booked": 0
+                        },
+                        {
+                            "id": 27,
+                            "booked": 0
+                        },
+                        {
+                            "id": 28,
+                            "booked": 0
+                        },
+                        {
+                            "id": 29,
+                            "booked": 0
+                        },
+                        {
+                            "id": 30,
+                            "booked": 0
+                        },
+                        {
+                            "id": 31,
+                            "booked": 0
+                        },
+                        {
+                            "id": 32,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 33,
+                            "booked": 1
+                        },
+                        {
+                            "id": 34,
+                            "booked": 0
+                        },
+                        {
+                            "id": 35,
+                            "booked": 1
+                        },
+                        {
+                            "id": 36,
+                            "booked": 0
+                        },
+                        {
+                            "id": 37,
+                            "booked": 0
+                        },
+                        {
+                            "id": 38,
+                            "booked": 1
+                        },
+                        {
+                            "id": 39,
+                            "booked": 0
+                        },
+                        {
+                            "id": 40,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 41,
+                            "booked": 0
+                        },
+                        {
+                            "id": 42,
+                            "booked": 0
+                        },
+                        {
+                            "id": 43,
+                            "booked": 1
+                        },
+                        {
+                            "id": 44,
+                            "booked": 0
+                        },
+                        {
+                            "id": 45,
+                            "booked": 0
+                        },
+                        {
+                            "id": 46,
+                            "booked": 0
+                        },
+                        {
+                            "id": 47,
+                            "booked": 0
+                        },
+                        {
+                            "id": 48,
+                            "booked": 0
+                        }
+                    ]
+                ],
+                "ticketPrice": 6
+            },
+            {
+                "id": 4,
+                "movie": "It's A Wonderful Life",
+                "seats": [
+                    [
+                        {
+                            "id": 1,
+                            "booked": 0
+                        },
+                        {
+                            "id": 2,
+                            "booked": 0
+                        },
+                        {
+                            "id": 3,
+                            "booked": 0
+                        },
+                        {
+                            "id": 4,
+                            "booked": 1
+                        },
+                        {
+                            "id": 5,
+                            "booked": 1
+                        },
+                        {
+                            "id": 6,
+                            "booked": 0
+                        },
+                        {
+                            "id": 7,
+                            "booked": 0
+                        },
+                        {
+                            "id": 8,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 9,
+                            "booked": 1
+                        },
+                        {
+                            "id": 10,
+                            "booked": 0
+                        },
+                        {
+                            "id": 11,
+                            "booked": 0
+                        },
+                        {
+                            "id": 12,
+                            "booked": 0
+                        },
+                        {
+                            "id": 13,
+                            "booked": 0
+                        },
+                        {
+                            "id": 14,
+                            "booked": 0
+                        },
+                        {
+                            "id": 15,
+                            "booked": 0
+                        },
+                        {
+                            "id": 16,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 17,
+                            "booked": 1
+                        },
+                        {
+                            "id": 18,
+                            "booked": 0
+                        },
+                        {
+                            "id": 19,
+                            "booked": 0
+                        },
+                        {
+                            "id": 20,
+                            "booked": 0
+                        },
+                        {
+                            "id": 21,
+                            "booked": 1
+                        },
+                        {
+                            "id": 22,
+                            "booked": 0
+                        },
+                        {
+                            "id": 23,
+                            "booked": 0
+                        },
+                        {
+                            "id": 24,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 25,
+                            "booked": 0
+                        },
+                        {
+                            "id": 26,
+                            "booked": 1
+                        },
+                        {
+                            "id": 27,
+                            "booked": 0
+                        },
+                        {
+                            "id": 28,
+                            "booked": 0
+                        },
+                        {
+                            "id": 29,
+                            "booked": 0
+                        },
+                        {
+                            "id": 30,
+                            "booked": 0
+                        },
+                        {
+                            "id": 31,
+                            "booked": 0
+                        },
+                        {
+                            "id": 32,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 33,
+                            "booked": 0
+                        },
+                        {
+                            "id": 34,
+                            "booked": 1
+                        },
+                        {
+                            "id": 35,
+                            "booked": 1
+                        },
+                        {
+                            "id": 36,
+                            "booked": 1
+                        },
+                        {
+                            "id": 37,
+                            "booked": 0
+                        },
+                        {
+                            "id": 38,
+                            "booked": 0
+                        },
+                        {
+                            "id": 39,
+                            "booked": 0
+                        },
+                        {
+                            "id": 40,
+                            "booked": 0
+                        }
+                    ],
+                    [
+                        {
+                            "id": 41,
+                            "booked": 0
+                        },
+                        {
+                            "id": 42,
+                            "booked": 0
+                        },
+                        {
+                            "id": 43,
+                            "booked": 1
+                        },
+                        {
+                            "id": 44,
+                            "booked": 0
+                        },
+                        {
+                            "id": 45,
+                            "booked": 0
+                        },
+                        {
+                            "id": 46,
+                            "booked": 0
+                        },
+                        {
+                            "id": 47,
+                            "booked": 0
+                        },
+                        {
+                            "id": 48,
+                            "booked": 0
+                        }
+                    ]
+                ],
+                "ticketPrice": 4
+            }
+        ]
+    }
+}
