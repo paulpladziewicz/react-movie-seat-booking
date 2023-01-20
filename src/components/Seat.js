@@ -1,9 +1,9 @@
-const Seat = ({seat, rowIndex, seatIndex , updateSelectedSeat}) => {
+const Seat = ({ seat, rowIndex, seatIndex, updateSelectedSeat }) => {
     const getCSSClasses = () => {
-        if (seat.booked) return "seat occupied";
-        if (seat.selected) return "seat selected";
-        return "seat";
-    }
+        if (seat.booked) return 'seat occupied';
+        if (seat.selected) return 'seat selected';
+        return 'seat';
+    };
 
     const handleClick = () => {
         if (seat.booked) return;
@@ -11,7 +11,8 @@ const Seat = ({seat, rowIndex, seatIndex , updateSelectedSeat}) => {
         if (seat.selected) return updateSelectedSeat(rowIndex, seatIndex, 0);
 
         updateSelectedSeat(rowIndex, seatIndex);
-    }
+    };
+
     return <div className={getCSSClasses()} onClick={handleClick}></div>;
 };
 

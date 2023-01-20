@@ -1,12 +1,19 @@
-import Row from "./Row";
+import Row from './Row';
 
-const Theater = ({theater, updateSelectedSeat}) => {
+const Theater = ({ theater, updateSelectedSeat }) => {
     return (
         <div className="theater">
             <div className="screen"></div>
 
             {theater.seats?.map((row, i) => {
-                return <Row key={i} seats={row} rowIndex={i} updateSelectedSeat={updateSelectedSeat} />
+                return (
+                    <Row
+                        key={i}
+                        seats={row}
+                        rowIndex={i}
+                        updateSelectedSeat={updateSelectedSeat}
+                    />
+                );
             })}
         </div>
     );
