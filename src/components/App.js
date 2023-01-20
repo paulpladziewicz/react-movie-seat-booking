@@ -8,6 +8,14 @@ const App = () => {
     const [theaters, setTheaters] = useState([]);
     const [theater, setTheater] = useState({});
 
+    const updateSelectedSeat = (rowIndex, seatIndex, selected = 1) => {
+        const theaterIndex = theater.id - 1;
+        const newTheaterArray = [...theaters];
+        newTheaterArray[theaterIndex].seats[rowIndex][seatIndex].selected = selected;
+        setTheaters(newTheaterArray);
+        setTheater(newTheaterArray[theaterIndex]);
+    }
+
     useEffect(() => {
         fetch('/api/theater.json')
             .then(res => res.json())
@@ -21,7 +29,7 @@ const App = () => {
         <>
             <MovieSelection theaters={theaters} setTheater={setTheater} />
             <SeatLegend />
-            <Theater theater={theater} />
+            <Theater theater={theater} updateSelectedSeat={updateSelectedSeat} />
             <TicketPricing />
         </>
     );

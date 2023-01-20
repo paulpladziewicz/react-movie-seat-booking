@@ -1,68 +1,13 @@
-const Theater = () => {
+import Row from "./Row";
+
+const Theater = ({theater, updateSelectedSeat}) => {
     return (
         <div className="theater">
             <div className="screen"></div>
 
-            <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-            </div>
-            <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat occupied"></div>
-                <div className="seat occupied"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-            </div>
-            <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat occupied"></div>
-                <div className="seat occupied"></div>
-            </div>
-            <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-            </div>
-            <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat occupied"></div>
-                <div className="seat occupied"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-            </div>
-            <div className="row">
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat"></div>
-                <div className="seat occupied"></div>
-                <div className="seat occupied"></div>
-                <div className="seat occupied"></div>
-                <div className="seat"></div>
-            </div>
+            {theater.seats?.map((row, i) => {
+                return <Row key={i} seats={row} rowIndex={i} updateSelectedSeat={updateSelectedSeat} />
+            })}
         </div>
     );
 };
