@@ -1,12 +1,14 @@
-const MovieSelection = () => {
+const MovieSelection = ({theaters, setTheater}) => {
+    const updateMovieSelection = (e) => {
+        setTheater(theaters[e.target.value - 1]);
+    }
     return (
         <div className="movie-selection">
             <label>Pick a movie:</label>
-            <select id="movie">
-                <option value="10">Avengers: Endgame ($10)</option>
-                <option value="12">Joker ($12)</option>
-                <option value="8">Toy Story 4 ($8)</option>
-                <option value="9">The Lion King ($9)</option>
+            <select onChange={updateMovieSelection} id="movie">
+                {theaters.map(theater => {
+                    return <option key={theater.id} value={theater.id}>{`${theater.movie} ($${theater.ticketPrice})`}</option>
+                })}
             </select>
         </div>
     );
